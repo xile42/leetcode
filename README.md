@@ -1,4 +1,4 @@
-![](resources/rappa.png)
+![](resources/rappa_emoji_2.png)
 
 # leetcode
 
