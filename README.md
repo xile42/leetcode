@@ -1,4 +1,6 @@
-![](resources/rappa_emoji_2.png)
+<p align="center">
+  <img src="resources/rappa_emoji_2.png">
+</p>
 
 # leetcode
 
