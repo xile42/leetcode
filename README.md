@@ -4,9 +4,11 @@
 
 # leetcode
 
+EN/[CH](README_CN.md)
+
 Leetcode solutions with Python3. 
 
-Me on Leetcode:  [link](https://leetcode.cn/u/zhangshize/).
+Me on Leetcode:  [喜乐](https://leetcode.cn/u/zhangshize/).
 
 <p align="center">
   <img src="https://img.shields.io/badge/language-Python3-yellow.svg?style=flat-square">
@@ -14,19 +16,19 @@ Me on Leetcode:  [link](https://leetcode.cn/u/zhangshize/).
   <img src="https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square">
 </p>
 
-## 灵神题单
+## Problem List by [0x3f](https://leetcode.cn/u/endlesscheng/)
 
-[如何科学刷题？](https://leetcode.cn/circle/discuss/RvFUtj/)
+[How to Study LeetCode Effectively?](https://leetcode.cn/circle/discuss/RvFUtj/)
 
-1. [滑动窗口与双指针（定长/不定长/单序列/双序列/三指针/分组循环）](https://leetcode.cn/circle/discuss/0viNMK/)
-2. [二分算法（二分答案/最小化最大值/最大化最小值/第K小）](https://leetcode.cn/circle/discuss/SqopEo/)
-3. [单调栈（基础/矩形面积/贡献法/最小字典序）](https://leetcode.cn/circle/discuss/9oZFK9/)
-4. [网格图（DFS/BFS/综合应用）](https://leetcode.cn/circle/discuss/YiXPXW/)
-5. [位运算（基础/性质/拆位/试填/恒等式/思维）](https://leetcode.cn/circle/discuss/dHn9Vk/)
-6. [图论算法（DFS/BFS/拓扑排序/基环树/最短路/最小生成树/网络流）](https://leetcode.cn/circle/discuss/01LUak/)
-7. [动态规划（入门/背包/划分/状态机/区间/状压/数位/数据结构优化/树形/博弈/概率期望）](https://leetcode.cn/circle/discuss/tXLS3i/)
-8. [常用数据结构（前缀和/差分/栈/队列/堆/字典树/并查集/树状数组/线段树）](https://leetcode.cn/circle/discuss/mOr1u6/)
-9. [数学算法（数论/组合/概率期望/博弈/计算几何/随机算法）](https://leetcode.cn/circle/discuss/IYT3ss/)
-10. [贪心与思维（基本贪心策略/反悔/区间/字典序/数学/思维/脑筋急转弯/构造）](https://leetcode.cn/circle/discuss/g6KTKL/)
-11. [链表、二叉树与回溯（前后指针/快慢指针/DFS/BFS/直径/LCA/一般树）](https://leetcode.cn/circle/discuss/K0n2gO/)
-12. [字符串（KMP/Z函数/Manacher/字符串哈希/AC自动机/后缀数组/子序列自动机）](https://leetcode.cn/circle/discuss/SJFwQI/)
+1. [Sliding Window & Two Pointers (Fixed-length/Variable-length/Single Sequence/Dual Sequence/Three Pointers/Grouped Loop)](https://leetcode.cn/circle/discuss/0viNMK/)
+2. [Binary Search (Binary Answer/Minimize Maximum/Maximize Minimum/K-th Smallest)](https://leetcode.cn/circle/discuss/SqopEo/)
+3. [Monotonic Stack (Basics/Rectangle Area/Contribution Method/Lexicographical Minimum)](https://leetcode.cn/circle/discuss/9oZFK9/)
+4. [Grid Graphs (DFS/BFS/Comprehensive Applications)](https://leetcode.cn/circle/discuss/YiXPXW/)
+5. [Bit Manipulation (Basics/Properties/Bit Decomposition/Trial Fill/Identities/Logical Thinking)](https://leetcode.cn/circle/discuss/dHn9Vk/)
+6. [Graph Algorithms (DFS/BFS/Topological Sorting/Base Ring Tree/Shortest Path/Minimum Spanning Tree/Network Flow)](https://leetcode.cn/circle/discuss/01LUak/)
+7. [Dynamic Programming (Introduction/Knapsack/Partitioning/State Machines/Range/State Compression/Digit/Data Structure Optimization/Tree-shaped/Game Theory/Probability & Expectations)](https://leetcode.cn/circle/discuss/tXLS3i/)
+8. [Common Data Structures (Prefix Sum/Difference Array/Stack/Queue/Heap/Trie/Disjoint Set Union/Fenwick Tree/Segment Tree)](https://leetcode.cn/circle/discuss/mOr1u6/)
+9. [Mathematical Algorithms (Number Theory/Combinatorics/Probability & Expectations/Game Theory/Computational Geometry/Randomized Algorithms)](https://leetcode.cn/circle/discuss/IYT3ss/)
+10. [Greedy Algorithms & Logical Thinking (Basic Greedy Strategies/Regret/Intervals/Lexicographical Order/Mathematics/Logical Thinking/Brain Teasers/Construction)](https://leetcode.cn/circle/discuss/g6KTKL/)
+11. [Linked Lists, Binary Trees & Backtracking (Front-Rear Pointers/Fast-Slow Pointers/DFS/BFS/Diameter/LCA/General Trees)](https://leetcode.cn/circle/discuss/K0n2gO/)
+12. [Strings (KMP/Z-algorithm/Manacher's Algorithm/String Hashing/AC Automaton/Suffix Array/Subsequence Automaton)](https://leetcode.cn/circle/discuss/SJFwQI/)
