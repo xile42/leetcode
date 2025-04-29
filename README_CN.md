@@ -6,13 +6,13 @@
 
 [EN](README.md)/CH
 
-Leetcode solutions with Python3. 
+Leetcode Python3 题解集。
 
-Me on Leetcode:  [喜乐](https://leetcode.cn/u/zhangshize/).
+我的 Leetcode:  [喜乐](https://leetcode.cn/u/zhangshize/)。
 
 <p align="center">
   <img src="https://img.shields.io/badge/language-Python3-yellow.svg?style=flat-square">
-  <img src="https://img.shields.io/badge/progress-2030%20%2F%203914-ff69b4.svg?style=flat-square">
+  <img src="https://img.shields.io/badge/progress-2048%20%2F%203914-ff69b4.svg?style=flat-square">
   <img src="https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square">
 </p>
 
