@@ -77,6 +77,6 @@ class Solution:
                 ans.append(0)
                 continue
             n = get_dis(u, v)
-            ans.append(pow(2, n - 1) % base)
+            ans.append(pow(2, n - 1, base))
 
         return ans

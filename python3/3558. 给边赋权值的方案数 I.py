@@ -26,4 +26,4 @@ class Solution:
         f(1, 0)
         n = mx_depth
 
-        return pow(2, n - 1) % base
+        return pow(2, n - 1, base)

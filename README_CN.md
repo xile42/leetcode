@@ -12,7 +12,7 @@ Leetcode Python3 题解集。
 
 <p align="center">
   <img src="https://img.shields.io/badge/language-Python3-yellow.svg?style=flat-square">
-  <img src="https://img.shields.io/badge/progress-2183%20%2F%203953-ff69b4.svg?style=flat-square">
+  <img src="https://img.shields.io/badge/progress-2187%20%2F%203953-ff69b4.svg?style=flat-square">
   <img src="https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square">
 </p>
 
