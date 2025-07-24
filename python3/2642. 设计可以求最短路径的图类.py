@@ -1,0 +1,101 @@
+"""
+codeforces-python: 算法竞赛Python3模板库
+#2: Dijkstra
+https://github.com/xile42/codeforces-python/blob/main/templates/graph.py
+"""
+class Dijkstra:
+
+    def __init__(self, n: int, edges: List[List[int]], start: int, directed: bool = False, need_path: bool = False) -> None:
+
+        self.n = n
+        self.g = [[] for _ in range(n)]
+        for u, v, w in edges:
+            self.g[u].append((v, w))
+            if not directed:
+                self.g[v].append((u, w))
+
+        self.start = start
+        self.directed = directed
+        self.need_path = need_path
+        self.dis = [inf] * self.n
+        self.pre = [-1] * self.n if need_path else None
+        self._run()
+
+    def _run(self) -> None:
+        """ 执行Dijkstra算法计算最短路径 """
+
+        self.dis[self.start] = 0
+        heap = [(0, self.start)]
+
+        while heap:
+            dis_x, x = heappop(heap)
+            if dis_x > self.dis[x]:
+                continue
+            for y, w in self.g[x]:
+                new_dis_y = dis_x + w
+                if new_dis_y < self.dis[y]:
+                    self.dis[y] = new_dis_y
+                    heappush(heap, (new_dis_y, y))
+                    if self.need_path:
+                        self.pre[y] = x
+
+    def get_dis(self) -> List[float]:
+        """ 获取起点到所有节点的最短距离列表 """
+
+        return self.dis
+
+    def get_dis_to_tar(self, target: int) -> float:
+        """ 获取起点到目标节点的最短距离 """
+
+        return self.dis[target]
+
+    def get_path(self, target: int) -> Optional[List[int]]:
+        """ 获取起点到目标节点的最短路径 """
+
+        if not self.need_path:
+            raise ValueError("Path recording was not enabled. Set need_path=True in constructor.")
+
+        if self.dis[target] == inf:
+            return None
+
+        path = list()
+        while target != -1:
+            path.append(target)
+            target = self.pre[target]
+        path.reverse()
+
+        return path
+
+    def get_reachable_nodes(self) -> List[int]:
+        """ 获取所有可达节点的列表 """
+
+        return [i for i, d in enumerate(self.dis) if d != inf]
+
+    def get_unreachable_nodes(self) -> List[int]:
+        """ 获取所有不可达节点的列表 """
+
+        return [i for i, d in enumerate(self.dis) if d == inf]
+
+    def is_reachable(self, target: int) -> bool:
+        """ 判断目标节点是否可达 """
+
+        return self.dis[target] != inf
+
+
+class Graph:
+
+    def __init__(self, n: int, edges: List[List[int]]):
+
+        self.n = n
+        self.edges = edges
+
+    def addEdge(self, edge: List[int]) -> None:
+
+        self.edges.append(edge)
+
+    def shortestPath(self, node1: int, node2: int) -> int:
+
+        dij = Dijkstra(self.n, self.edges, node1, directed=True)
+        dis = dij.get_dis_to_tar(node2)
+
+        return dis if dis < inf else -1
