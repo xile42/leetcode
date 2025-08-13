@@ -11,7 +11,7 @@ Leetcode solutions with Python3.
 Me on Leetcode:  [喜乐](https://leetcode.cn/u/zhangshize/).
 
 <p align="center">
-    <img src="[https://leetcard.jacoblin.cool/JacobLinCool](https://leetcard.jacoblin.cool/zhangshize?site=cn&theme=radical&font=Big_Shoulders_Text&border=0&radius=20&animation=true&ext=heatmap&cache=60)" />
+    <img src="https://leetcard.jacoblin.cool/zhangshize?site=cn&theme=radical&font=Big_Shoulders_Text&border=0&radius=20&animation=true&ext=heatmap&cache=60" />
 </p>
 
 <p align="center">
