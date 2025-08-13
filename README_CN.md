@@ -4,6 +4,12 @@
 
 # leetcode
 
+<p align="center">
+  <img src="https://img.shields.io/badge/language-Python3-yellow.svg?style=flat-square">
+  <img src="https://img.shields.io/badge/progress-2446%20%2F%203953-ff69b4.svg?style=flat-square">
+  <img src="https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square">
+</p>
+
 [EN](README.md)/CH
 
 Leetcode Python3 题解集。
@@ -11,9 +17,7 @@ Leetcode Python3 题解集。
 我的 Leetcode:  [喜乐](https://leetcode.cn/u/zhangshize/)。
 
 <p align="center">
-  <img src="https://img.shields.io/badge/language-Python3-yellow.svg?style=flat-square">
-  <img src="https://img.shields.io/badge/progress-2347%20%2F%203953-ff69b4.svg?style=flat-square">
-  <img src="https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square">
+    <img src="https://leetcard.jacoblin.cool/zhangshize?site=cn&theme=radical&font=Big_Shoulders_Text&border=0&radius=20&animation=true&ext=heatmap&cache=60" />
 </p>
 
 ## [灵神](https://leetcode.cn/u/endlesscheng/)题单
